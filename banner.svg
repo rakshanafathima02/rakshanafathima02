@@ -1,74 +1,582 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" role="img" aria-label="Rakshana Fathima - AI and Full-Stack Developer">
-<defs>
-  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-    <stop offset="0" stop-color="#09090f"/><stop offset=".5" stop-color="#17112a"/><stop offset="1" stop-color="#09090f"/>
-  </linearGradient>
-  <linearGradient id="neon" x1="0" x2="1">
-    <stop stop-color="#ff4fd8"><animate attributeName="stop-color" values="#ff4fd8;#9b5cff;#4dd8ff;#ff4fd8" dur="6s" repeatCount="indefinite"/></stop>
-    <stop offset="1" stop-color="#4dd8ff"><animate attributeName="stop-color" values="#4dd8ff;#ff4fd8;#9b5cff;#4dd8ff" dur="6s" repeatCount="indefinite"/></stop>
-  </linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="round"><rect width="1280" height="560" rx="32"/></clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1280 560"
+     role="img"
+     aria-label="Rakshana Fathima - AI and Full-Stack Developer">
 
-<rect width="1280" height="560" rx="32" fill="url(#bg)"/>
-<g clip-path="url(#round)">
-  <circle cx="1050" cy="90" r="170" fill="#9b5cff" opacity=".10"/>
-  <circle cx="210" cy="470" r="230" fill="#ff4fd8" opacity=".07"/>
-  <circle cx="660" cy="270" r="130" fill="#4dd8ff" opacity=".04"/>
+  <defs>
 
-  <g font-family="monospace" fill="#b6b0c9" font-size="24">
-    <text x="70" y="70">user@rakshana:~$ <tspan fill="#ff79df">cat</tspan> README.md<tspan fill="#fff">_</tspan>
-      <animate attributeName="opacity" values="0;1;1;1" dur="1.8s" repeatCount="indefinite"/>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070D"/>
+      <stop offset="50%" stop-color="#151020"/>
+      <stop offset="100%" stop-color="#08080E"/>
+    </linearGradient>
+
+    <!-- Animated heading gradient -->
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF4FD8">
+        <animate
+          attributeName="stop-color"
+          values="#FF4FD8;#9B5CFF;#4DD8FF;#FF4FD8"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#4DD8FF">
+        <animate
+          attributeName="stop-color"
+          values="#4DD8FF;#FF4FD8;#9B5CFF;#4DD8FF"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Soft glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Small glow -->
+    <filter id="smallGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect width="1280" height="560" rx="32"/>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect
+    width="1280"
+    height="560"
+    rx="32"
+    fill="url(#bg)"/>
+
+
+  <g clip-path="url(#rounded)">
+
+    <!-- Ambient circles -->
+
+    <circle
+      cx="1060"
+      cy="90"
+      r="180"
+      fill="#9B5CFF"
+      opacity="0.10">
+      <animate
+        attributeName="opacity"
+        values="0.06;0.14;0.06"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      cx="190"
+      cy="470"
+      r="230"
+      fill="#FF4FD8"
+      opacity="0.07">
+      <animate
+        attributeName="opacity"
+        values="0.04;0.10;0.04"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      cx="650"
+      cy="270"
+      r="140"
+      fill="#4DD8FF"
+      opacity="0.04">
+      <animate
+        attributeName="r"
+        values="120;155;120"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+
+    <!-- ================================================== -->
+    <!-- TOP TERMINAL -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="70"
+      font-family="monospace"
+      font-size="24"
+      fill="#BDB6CC">
+
+      user@rakshana:~$
+
+      <tspan fill="#FF79DF"> cat </tspan>
+
+      <tspan fill="#DAD5E4">README.md</tspan>
+
+      <tspan fill="#FFFFFF">_</tspan>
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;1"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
     </text>
+
+
+    <!-- ================================================== -->
+    <!-- MAIN TITLE -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="175"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="76"
+      font-weight="800"
+      fill="url(#titleGradient)"
+      filter="url(#glow)">
+
+      Rakshana Fathima
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="1.2s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- ROLE -->
+    <!-- ================================================== -->
+
+    <text
+      x="74"
+      y="225"
+      font-family="monospace"
+      font-size="30"
+      font-weight="600"
+      fill="#F4F0FA">
+
+      AI &amp; Full-Stack Developer
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- TAGLINE -->
+    <!-- ================================================== -->
+
+    <text
+      x="74"
+      y="272"
+      font-family="monospace"
+      font-size="21"
+      fill="#C7C0D4">
+
+      Building AI-powered solutions and exploring emerging technologies.
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- SKILL PILLS -->
+    <!-- ================================================== -->
+
+    <!-- Python -->
+
+    <rect
+      x="74"
+      y="315"
+      width="112"
+      height="42"
+      rx="21"
+      fill="#FFFFFF08"
+      stroke="#FF4FD8"
+      stroke-width="1.5"/>
+
+    <text
+      x="98"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      fill="#FF9CE8">
+
+      Python
+
+    </text>
+
+
+    <!-- JavaScript -->
+
+    <rect
+      x="198"
+      y="315"
+      width="142"
+      height="42"
+      rx="21"
+      fill="#FFFFFF08"
+      stroke="#9B5CFF"
+      stroke-width="1.5"/>
+
+    <text
+      x="224"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      fill="#CDB8FF">
+
+      JavaScript
+
+    </text>
+
+
+    <!-- SQL -->
+
+    <rect
+      x="352"
+      y="315"
+      width="95"
+      height="42"
+      rx="21"
+      fill="#FFFFFF08"
+      stroke="#4DD8FF"
+      stroke-width="1.5"/>
+
+    <text
+      x="380"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      fill="#8CEBFF">
+
+      SQL
+
+    </text>
+
+
+    <!-- Generative AI -->
+
+    <rect
+      x="459"
+      y="315"
+      width="145"
+      height="42"
+      rx="21"
+      fill="#FFFFFF08"
+      stroke="#FF4FD8"
+      stroke-width="1.5"/>
+
+    <text
+      x="481"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      fill="#FF9CE8">
+
+      Generative AI
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- PROFILE.JS CARD -->
+    <!-- ================================================== -->
+
+    <g transform="translate(850 135)">
+
+      <rect
+        x="0"
+        y="0"
+        width="300"
+        height="250"
+        rx="24"
+        fill="#0C0B13"
+        stroke="#3B3349"
+        stroke-width="1.5"/>
+
+
+      <!-- Card header -->
+
+      <text
+        x="28"
+        y="38"
+        font-family="monospace"
+        font-size="18"
+        fill="#FF79DF">
+
+        profile.js
+
+      </text>
+
+
+      <!-- const -->
+
+      <text
+        x="28"
+        y="78"
+        font-family="monospace"
+        font-size="18"
+        fill="#5FDBFF">
+
+        const
+
+      </text>
+
+
+      <text
+        x="92"
+        y="78"
+        font-family="monospace"
+        font-size="18"
+        fill="#FFFFFF">
+
+        developer = {
+
+      </text>
+
+
+      <!-- focus -->
+
+      <text
+        x="44"
+        y="112"
+        font-family="monospace"
+        font-size="17"
+        fill="#C2A8FF">
+
+        focus:
+
+      </text>
+
+      <text
+        x="120"
+        y="112"
+        font-family="monospace"
+        font-size="17"
+        fill="#FFFFFF">
+
+        "AI"
+
+      </text>
+
+
+      <!-- stack -->
+
+      <text
+        x="44"
+        y="146"
+        font-family="monospace"
+        font-size="17"
+        fill="#C2A8FF">
+
+        stack:
+
+      </text>
+
+      <text
+        x="120"
+        y="146"
+        font-family="monospace"
+        font-size="17"
+        fill="#FFFFFF">
+
+        "Full-Stack"
+
+      </text>
+
+
+      <!-- problems -->
+
+      <text
+        x="44"
+        y="180"
+        font-family="monospace"
+        font-size="17"
+        fill="#C2A8FF">
+
+        problems:
+
+      </text>
+
+      <text
+        x="150"
+        y="180"
+        font-family="monospace"
+        font-size="17"
+        fill="#FFFFFF">
+
+        "90+"
+
+      </text>
+
+
+      <text
+        x="28"
+        y="218"
+        font-family="monospace"
+        font-size="18"
+        fill="#FFFFFF">
+
+        };
+
+      </text>
+
+    </g>
+
+
+    <!-- ================================================== -->
+    <!-- FLOATING PARTICLES -->
+    <!-- ================================================== -->
+
+    <circle
+      cx="760"
+      cy="90"
+      r="2.5"
+      fill="#FFFFFF"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.15;1;0.15"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="1180"
+      cy="420"
+      r="2.5"
+      fill="#FFFFFF"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.1;1;0.1"
+        dur="1.7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="690"
+      cy="430"
+      r="2.5"
+      fill="#FFFFFF"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.1;1;0.1"
+        dur="2.4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ================================================== -->
+    <!-- PINK SCANNING LINE -->
+    <!-- ================================================== -->
+
+    <!-- Kept behind the important visual area and made subtle -->
+
+    <rect
+      x="-100"
+      y="90"
+      width="1480"
+      height="3"
+      rx="2"
+      fill="#FF4FD8"
+      opacity="0.28"
+      filter="url(#glow)">
+
+      <animate
+        attributeName="y"
+        values="80;500;80"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <!-- ================================================== -->
+    <!-- BOTTOM LINE -->
+    <!-- ================================================== -->
+
+    <rect
+      x="70"
+      y="410"
+      width="1080"
+      height="1"
+      fill="#FFFFFF"
+      opacity="0.10"/>
+
+
+    <!-- ================================================== -->
+    <!-- FOOTER -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="455"
+      font-family="monospace"
+      font-size="18"
+      fill="#AAA2B8">
+
+      Artificial Intelligence • Full-Stack Development • Problem Solving
+
+    </text>
+
+
+    <text
+      x="70"
+      y="495"
+      font-family="monospace"
+      font-size="16"
+      fill="#766E82">
+
+      github.com/rakshanafathima02
+
+    </text>
+
+
+    <!-- Animated small terminal cursor -->
+
+    <rect
+      x="410"
+      y="481"
+      width="9"
+      height="18"
+      fill="#FF4FD8">
+
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
   </g>
 
-  <text x="70" y="175" font-family="Arial, sans-serif" font-size="76" font-weight="800" fill="url(#neon)" filter="url(#glow)">
-    Rakshana Fathima
-    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
-  </text>
-
-  <text x="74" y="225" font-family="monospace" font-size="30" fill="#e8e4f0">
-    AI &amp; Full-Stack Developer
-  </text>
-
-  <text x="74" y="272" font-family="monospace" font-size="21" fill="#aaa2bb">
-    Building AI-powered solutions and exploring emerging technologies.
-  </text>
-
-  <g font-family="monospace" font-size="18">
-    <rect x="74" y="315" width="112" height="42" rx="21" fill="#ffffff10" stroke="#ff4fd8"/>
-    <text x="98" y="342" fill="#ffd7f6">Python</text>
-    <rect x="198" y="315" width="142" height="42" rx="21" fill="#ffffff10" stroke="#9b5cff"/>
-    <text x="224" y="342" fill="#e4d5ff">JavaScript</text>
-    <rect x="352" y="315" width="95" height="42" rx="21" fill="#ffffff10" stroke="#4dd8ff"/>
-    <text x="380" y="342" fill="#c9f7ff">SQL</text>
-    <rect x="459" y="315" width="120" height="42" rx="21" fill="#ffffff10" stroke="#ff4fd8"/>
-    <text x="481" y="342" fill="#ffd7f6">Generative AI</text>
-  </g>
-
-  <g transform="translate(850 135)">
-    <rect x="0" y="0" width="300" height="250" rx="24" fill="#0b0b14" stroke="#ffffff20"/>
-    <text x="28" y="38" fill="#ff79df" font-family="monospace" font-size="18">profile.js</text>
-    <text x="28" y="78" fill="#7ee7ff" font-family="monospace" font-size="18">const</text>
-    <text x="92" y="78" fill="#fff" font-family="monospace" font-size="18">developer = &#123;</text>
-    <text x="44" y="112" fill="#bfa9ff" font-family="monospace" font-size="17">focus:</text>
-    <text x="120" y="112" fill="#fff" font-family="monospace" font-size="17">"AI"</text>
-    <text x="44" y="146" fill="#bfa9ff" font-family="monospace" font-size="17">stack:</text>
-    <text x="120" y="146" fill="#fff" font-family="monospace" font-size="17">"Full-Stack"</text>
-    <text x="44" y="180" fill="#bfa9ff" font-family="monospace" font-size="17">problems:</text>
-    <text x="150" y="180" fill="#fff" font-family="monospace" font-size="17">"90+"</text>
-    <text x="28" y="218" fill="#fff" font-family="monospace" font-size="18">&#125;;</text>
-  </g>
-
-  <rect x="-100" y="505" width="1480" height="3" fill="#ff4fd8" opacity=".75" filter="url(#glow)">
-    <animate attributeName="y" values="80;505;80" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g fill="#fff">
-    <circle cx="760" cy="90" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="1180" cy="420" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="1.7s" repeatCount="indefinite"/></circle>
-    <circle cx="690" cy="430" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2.4s" repeatCount="indefinite"/></circle>
-  </g>
-</g>
 </svg>
