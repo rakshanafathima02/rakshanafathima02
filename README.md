@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Rakshana Fathima GitHub Profile" src="banner.svg?v=1">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
+  <img alt="Rakshana Fathima GitHub Profile" src="banner.svg?v=2">
 </picture>
 
 <br>
