@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210">
+<rect width="700" height="210" rx="20" fill="#0d0d15" stroke="#2b2537"/>
+<text x="30" y="40" fill="#ff79df" font-family="monospace" font-size="20">CORE STACK</text>
+<g font-family="monospace" font-size="16" fill="#eee">
+<text x="30" y="82">Python</text><rect x="150" y="68" width="430" height="16" rx="8" fill="#2a2030"/><rect x="150" y="68" width="360" height="16" rx="8" fill="#ff4fd8"><animate attributeName="width" from="0" to="360" dur="1.2s"/></rect>
+<text x="30" y="120">JavaScript</text><rect x="150" y="106" width="430" height="16" rx="8" fill="#2a2030"/><rect x="150" y="106" width="325" height="16" rx="8" fill="#9b5cff"><animate attributeName="width" from="0" to="325" dur="1.2s"/></rect>
+<text x="30" y="158">SQL</text><rect x="150" y="144" width="430" height="16" rx="8" fill="#2a2030"/><rect x="150" y="144" width="285" height="16" rx="8" fill="#4dd8ff"><animate attributeName="width" from="0" to="285" dur="1.2s"/></rect>
+</g>
+</svg>

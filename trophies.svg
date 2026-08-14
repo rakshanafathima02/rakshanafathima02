@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180">
+<rect width="700" height="180" rx="20" fill="#0d0d15" stroke="#2b2537"/>
+<text x="30" y="42" fill="#ff79df" font-family="monospace" font-size="20">HIGHLIGHTS</text>
+<g font-family="Arial" fill="#eee" font-size="18">
+<text x="40" y="85">Rajya Puraskar Awardee</text>
+<text x="40" y="120">90+ LeetCode Problems</text>
+<text x="40" y="155">Master of Ceremonies</text>
+</g>
+<circle cx="610" cy="105" r="45" fill="none" stroke="#ff4fd8" stroke-width="4" stroke-dasharray="10 8">
+<animateTransform attributeName="transform" type="rotate" from="0 610 105" to="360 610 105" dur="8s" repeatCount="indefinite"/>
+</circle>
+<text x="610" y="112" text-anchor="middle" fill="#fff" font-family="monospace" font-size="13">BUILD</text>
+</svg>

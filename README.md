@@ -1,18 +1,85 @@
-# 💫 About Me:
-Hi, I'm Rakshana Fathima<br>CSE Student | AI Enthusiast | Communication<br><br>I'm passionate about building AI-powered applications and exploring new AI tools.<br><br>B.Tech CSE | CGPA: 9.2<br> Deep Tech AI Engineer Trainee<br>90+ LeetCode problems solved<br>Interested in AI & Emerging Technologies<br>Strong in communication, leadership & problem solving<br><br>Tech Stack<br><br>Python | C | C++ | JavaScript | HTML | CSS | SQL | MySQL | Power BI<br><br>Featured Projects<br><br>* AI Search Engine — Voice, image search, NLP & recommendations<br>* AI Hotel Booking System — Full-stack booking with AI recommendations<br>* AI Cloud Telephony Softphone — VoIP & cloud call management<br>* AI Cafe Management System — Responsive web app with AI recommendations<br>* Retail Sales Dashboard — Interactive Power BI dashboard<br><br>Connect<br><br>Email: [rakshanarakshuu.02@gmail.com](mailto:rakshanarakshuu.02@gmail.com)<br>GitHub:github.com/rakshanafathima02<br>
+<div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Rakshana Fathima GitHub Profile" src="banner.svg?v=1">
+</picture>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rakshana-fathima-m-60b638375?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rakshanarakshuu.02@gmail.com) 
+<br>
 
-# 💻 Tech Stack:
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=rakshanafathima02&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=rakshanafathima02&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=rakshanafathima02&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<img src="lanyard.svg?v=1" width="420" alt="Rakshana Fathima profile card">
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=rakshanafathima02&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## About Me
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**AI & Full-Stack Developer | Computer Science Student**
+
+Computer Science and Engineering student passionate about **Artificial Intelligence, Full-Stack Development, Generative AI and emerging technologies**.
+
+- B.Tech CSE | 2023–2027 | CGPA: **9.2**
+- Deep Tech AI Engineer Trainee
+- 90+ LeetCode problems solved
+- Interested in AI, full-stack development and problem solving
+
+## Tech Stack
+
+**Python · C · C++ · JavaScript · HTML · CSS · SQL · MySQL · Power BI**
+
+## Featured Projects
+
+| Project | Highlights |
+|---|---|
+| **AI Search Engine** | Voice search, image search, NLP and smart recommendations |
+| **AI Hotel Booking System** | Authentication, booking management, admin panel and AI recommendations |
+| **AI Cloud Telephony Softphone** | VoIP calling, call management and cloud recording |
+| **AI Cafe Management System** | Responsive web application with AI recommendations |
+| **Retail Sales Dashboard** | Power BI dashboard for sales, profit, orders and regional analysis |
+
+## Experience
+
+**Deep Tech AI Engineer Trainee — Qumarionix Techworks Pvt Ltd**  
+Aug 2026 – Present
+
+**Junior Software Trainee – Frontend — Eagle Hitech Softcloud Pvt Ltd**  
+Jun 2025 – Jul 2025
+
+**Marketing Intern — EduFyi Tech Solutions**  
+Jun 2025 – Jul 2025
+
+## Achievements
+
+- Rajya Puraskar Awardee — The Bharat Scouts and Guides
+- Master of Ceremonies for multiple college events
+- 90+ LeetCode problems solved
+
+## GitHub Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="stats.svg?v=1">
+  <img src="stats.svg?v=1" alt="GitHub activity">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="langs.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="langs.svg?v=1">
+  <img src="langs.svg?v=1" alt="Languages">
+</picture>
+
+## Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rakshanafathima02/rakshanafathima02/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rakshanafathima02/rakshanafathima02/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rakshanafathima02/rakshanafathima02/output/github-contribution-grid-snake.svg">
+</picture>
+
+## Connect
+
+**Email:** rakshanarakshuu.02@gmail.com  
+**GitHub:** https://github.com/rakshanafathima02
+
+---
+
+*Building AI-powered solutions and exploring emerging technologies.*
+</div>

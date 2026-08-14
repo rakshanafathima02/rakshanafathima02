@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" role="img" aria-label="Rakshana Fathima profile badge">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#ff4fd8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(350 20)">
+  <path d="M-95 0 Q-70 90 0 115 Q70 90 95 0" fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-4;4;-3;2;-4" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cy="110" r="13" fill="#c9c9d2" stroke="#777" stroke-width="4"/>
+  <g transform-origin="0 115">
+    <animateTransform attributeName="transform" type="rotate" values="-5;5;-4;2;-5" dur="5s" repeatCount="indefinite"/>
+    <rect x="-150" y="120" width="300" height="240" rx="25" fill="#10101a" stroke="#ff4fd8" stroke-width="2"/>
+    <circle cy="185" r="48" fill="#1e1b2b" stroke="#9b5cff" stroke-width="4"/>
+    <circle cy="176" r="20" fill="#ffd6bd"/>
+    <path d="M-27 210 Q0 180 27 210" fill="#4b315f"/>
+    <text x="0" y="260" text-anchor="middle" fill="#fff" font-family="Arial" font-size="25" font-weight="700">Rakshana Fathima</text>
+    <text x="0" y="287" text-anchor="middle" fill="#ff9be8" font-family="monospace" font-size="16">AI &amp; Full-Stack Developer</text>
+    <text x="0" y="314" text-anchor="middle" fill="#aaa" font-family="monospace" font-size="14">@rakshanafathima02</text>
+    <rect x="-110" y="329" width="220" height="10" fill="#fff"/>
+    <g stroke="#10101a" stroke-width="3">
+      <path d="M-100 329v10M-88 329v10M-72 329v10M-55 329v10M-42 329v10M-25 329v10M-7 329v10M10 329v10M27 329v10M43 329v10M63 329v10M82 329v10M98 329v10"/>
+    </g>
+    <rect x="-150" y="120" width="300" height="240" rx="25" fill="url(#g)" opacity=".08">
+      <animate attributeName="x" values="-260;150;-260" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</g>
+</svg>

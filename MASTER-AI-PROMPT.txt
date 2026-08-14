@@ -1,0 +1,47 @@
+Create a complete animated GitHub profile README package for:
+
+Name: Rakshana Fathima M
+GitHub username: rakshanafathima02
+Role: AI & Full-Stack Developer
+Email: rakshanarakshuu.02@gmail.com
+Tagline: Building AI-powered solutions and exploring emerging technologies.
+
+Skills:
+Python, C, C++, JavaScript, HTML, CSS, SQL, MySQL, Power BI,
+Artificial Intelligence, Generative AI, NLP, AI APIs, AI-assisted development.
+
+Education:
+B.Tech Computer Science and Engineering, 2023–2027
+B. S. Abdur Rahman Crescent Institute of Science and Technology
+CGPA: 9.2
+
+Experience:
+Deep Tech AI Engineer Trainee — Qumarionix Techworks Pvt Ltd — Aug 2026–Present
+Junior Software Trainee – Frontend — Eagle Hitech Softcloud Pvt Ltd — Jun–Jul 2025
+Marketing Intern — EduFyi Tech Solutions — Jun–Jul 2025
+
+Projects:
+1. AI Search Engine — Python, JavaScript, AI APIs, voice search, image search, NLP, smart recommendations.
+2. AI-Powered Hotel Room Booking System — HTML, CSS, JavaScript, MySQL, authentication, booking management, admin panel, AI room recommendations.
+3. AI-Powered Cloud Telephony Softphone — mobile-first softphone, VoIP calling, call management, cloud call recording, secure data handling.
+4. AI-Powered Cafe Management System — HTML, CSS, JavaScript, responsive UI, login, contact and AI recommendations.
+5. Retail Sales Dashboard — Power BI, sales, profit, orders, regional performance, KPIs, filters and trend analysis.
+
+Achievements:
+Rajya Puraskar Awardee — The Bharat Scouts and Guides
+90+ LeetCode problems solved
+Master of Ceremonies for multiple college events
+
+Generate:
+- banner.svg
+- banner-light.svg
+- lanyard.svg
+- stats.svg
+- langs.svg
+- trophies.svg
+- README.md
+- .github/workflows/github-snake.yml
+
+Use only SVG/CSS/SMIL animation. Do not use JavaScript in README animations.
+Keep the design professional, recruiter-friendly, dark/purple/pink/blue neon aesthetic.
+Do not invent technologies, employers, metrics or achievements.

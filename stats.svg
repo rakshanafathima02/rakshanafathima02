@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210">
+<rect width="700" height="210" rx="20" fill="#0d0d15" stroke="#2b2537"/>
+<text x="30" y="45" fill="#ff79df" font-family="monospace" font-size="20">GITHUB ACTIVITY</text>
+<g font-family="monospace" font-size="18" fill="#eee">
+<text x="30" y="90">Repositories</text><text x="390" y="90">Projects &amp; Experiments</text>
+<text x="30" y="130">LeetCode</text><text x="390" y="130">90+ solved</text>
+<text x="30" y="170">Focus</text><text x="390" y="170">AI / Full-Stack</text>
+</g>
+<rect x="360" y="66" width="5" height="120" fill="#ff4fd8"><animate attributeName="opacity" values=".2;1;.2" dur="1.5s" repeatCount="indefinite"/></rect>
+</svg>
