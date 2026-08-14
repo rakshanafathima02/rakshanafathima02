@@ -1,74 +1,651 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" role="img" aria-label="Rakshana Fathima - AI and Full-Stack Developer">
-<defs>
-  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-    <stop offset="0" stop-color="#f7f5fb"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#f2eff9"/>
-  </linearGradient>
-  <linearGradient id="neon" x1="0" x2="1">
-    <stop stop-color="#ff4fd8"><animate attributeName="stop-color" values="#ff4fd8;#9b5cff;#4dd8ff;#ff4fd8" dur="6s" repeatCount="indefinite"/></stop>
-    <stop offset="1" stop-color="#4dd8ff"><animate attributeName="stop-color" values="#4dd8ff;#ff4fd8;#9b5cff;#4dd8ff" dur="6s" repeatCount="indefinite"/></stop>
-  </linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="round"><rect width="1280" height="560" rx="32"/></clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1280 560"
+     role="img"
+     aria-label="Rakshana Fathima - AI and Full-Stack Developer">
 
-<rect width="1280" height="560" rx="32" fill="url(#bg)"/>
-<g clip-path="url(#round)">
-  <circle cx="1050" cy="90" r="170" fill="#9b5cff" opacity=".10"/>
-  <circle cx="210" cy="470" r="230" fill="#ff4fd8" opacity=".07"/>
-  <circle cx="660" cy="270" r="130" fill="#4dd8ff" opacity=".04"/>
+  <defs>
 
-  <g font-family="monospace" fill="#b6b0c9" font-size="24">
-    <text x="70" y="70">user@rakshana:~$ <tspan fill="#ff79df">cat</tspan> README.md<tspan fill="#fff">_</tspan>
-      <animate attributeName="opacity" values="0;1;1;1" dur="1.8s" repeatCount="indefinite"/>
+    <!-- Light background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F7FC"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F1FA"/>
+    </linearGradient>
+
+
+    <!-- Strong readable title -->
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+
+      <stop offset="0%" stop-color="#7B3FE4">
+
+        <animate
+          attributeName="stop-color"
+          values="#7B3FE4;#C218A8;#1677B7;#7B3FE4"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+      </stop>
+
+      <stop offset="100%" stop-color="#1677B7">
+
+        <animate
+          attributeName="stop-color"
+          values="#1677B7;#7B3FE4;#C218A8;#1677B7"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+      </stop>
+
+    </linearGradient>
+
+
+    <!-- Soft light-mode glow -->
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+
+      <feGaussianBlur
+        stdDeviation="6"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <filter id="smallGlow" x="-50%" y="-50%" width="200%" height="200%">
+
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <clipPath id="rounded">
+
+      <rect
+        width="1280"
+        height="560"
+        rx="32"/>
+
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect
+    width="1280"
+    height="560"
+    rx="32"
+    fill="url(#bg)"/>
+
+
+  <g clip-path="url(#rounded)">
+
+
+    <!-- ================================================== -->
+    <!-- BACKGROUND CIRCLES -->
+    <!-- ================================================== -->
+
+    <circle
+      cx="1060"
+      cy="90"
+      r="180"
+      fill="#8B5CF6"
+      opacity="0.10">
+
+      <animate
+        attributeName="opacity"
+        values="0.06;0.14;0.06"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="190"
+      cy="470"
+      r="230"
+      fill="#EC4899"
+      opacity="0.08">
+
+      <animate
+        attributeName="opacity"
+        values="0.04;0.11;0.04"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="650"
+      cy="270"
+      r="140"
+      fill="#06B6D4"
+      opacity="0.05">
+
+      <animate
+        attributeName="r"
+        values="120;155;120"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ================================================== -->
+    <!-- TERMINAL -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="70"
+      font-family="monospace"
+      font-size="24"
+      fill="#5B5567">
+
+      user@rakshana:~$
+
+      <tspan
+        fill="#C2188B">
+        cat
+      </tspan>
+
+      <tspan
+        fill="#4D4758">
+        README.md
+      </tspan>
+
+      <tspan
+        fill="#292333">
+        _
+      </tspan>
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;1"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
     </text>
+
+
+    <!-- ================================================== -->
+    <!-- MAIN TITLE -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="175"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="76"
+      font-weight="800"
+      fill="url(#titleGradient)"
+      filter="url(#glow)">
+
+      Rakshana Fathima
+
+      <animate
+        attributeName="opacity"
+        values="0;1"
+        dur="1.2s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- ROLE -->
+    <!-- ================================================== -->
+
+    <text
+      x="74"
+      y="225"
+      font-family="monospace"
+      font-size="30"
+      font-weight="600"
+      fill="#211D29">
+
+      AI &amp; Full-Stack Developer
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- TAGLINE -->
+    <!-- ================================================== -->
+
+    <text
+      x="74"
+      y="272"
+      font-family="monospace"
+      font-size="21"
+      fill="#40394A">
+
+      Building AI-powered solutions and exploring emerging technologies.
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- PYTHON -->
+    <!-- ================================================== -->
+
+    <rect
+      x="74"
+      y="315"
+      width="112"
+      height="42"
+      rx="21"
+      fill="#FFFFFF"
+      fill-opacity="0.75"
+      stroke="#C218A8"
+      stroke-width="1.5"/>
+
+    <text
+      x="98"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      font-weight="600"
+      fill="#9C197E">
+
+      Python
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- JAVASCRIPT -->
+    <!-- ================================================== -->
+
+    <rect
+      x="198"
+      y="315"
+      width="142"
+      height="42"
+      rx="21"
+      fill="#FFFFFF"
+      fill-opacity="0.75"
+      stroke="#7046C8"
+      stroke-width="1.5"/>
+
+    <text
+      x="224"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      font-weight="600"
+      fill="#5C3BA5">
+
+      JavaScript
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- SQL -->
+    <!-- ================================================== -->
+
+    <rect
+      x="352"
+      y="315"
+      width="95"
+      height="42"
+      rx="21"
+      fill="#FFFFFF"
+      fill-opacity="0.75"
+      stroke="#008EAA"
+      stroke-width="1.5"/>
+
+    <text
+      x="380"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      font-weight="600"
+      fill="#006F84">
+
+      SQL
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- GENERATIVE AI -->
+    <!-- ================================================== -->
+
+    <rect
+      x="459"
+      y="315"
+      width="145"
+      height="42"
+      rx="21"
+      fill="#FFFFFF"
+      fill-opacity="0.75"
+      stroke="#C218A8"
+      stroke-width="1.5"/>
+
+    <text
+      x="481"
+      y="342"
+      font-family="monospace"
+      font-size="17"
+      font-weight="600"
+      fill="#9C197E">
+
+      Generative AI
+
+    </text>
+
+
+    <!-- ================================================== -->
+    <!-- PROFILE.JS CARD -->
+    <!-- ================================================== -->
+
+    <g transform="translate(850 135)">
+
+      <rect
+        x="0"
+        y="0"
+        width="300"
+        height="250"
+        rx="24"
+        fill="#FFFFFF"
+        stroke="#D8D1E4"
+        stroke-width="1.5"/>
+
+
+      <!-- Card header -->
+
+      <text
+        x="28"
+        y="38"
+        font-family="monospace"
+        font-size="18"
+        font-weight="600"
+        fill="#C2188B">
+
+        profile.js
+
+      </text>
+
+
+      <!-- const -->
+
+      <text
+        x="28"
+        y="78"
+        font-family="monospace"
+        font-size="18"
+        font-weight="600"
+        fill="#007C91">
+
+        const
+
+      </text>
+
+
+      <text
+        x="92"
+        y="78"
+        font-family="monospace"
+        font-size="18"
+        fill="#292333">
+
+        developer = {
+
+      </text>
+
+
+      <!-- focus -->
+
+      <text
+        x="44"
+        y="112"
+        font-family="monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#6041A5">
+
+        focus:
+
+      </text>
+
+
+      <text
+        x="120"
+        y="112"
+        font-family="monospace"
+        font-size="17"
+        fill="#292333">
+
+        "AI"
+
+      </text>
+
+
+      <!-- stack -->
+
+      <text
+        x="44"
+        y="146"
+        font-family="monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#6041A5">
+
+        stack:
+
+      </text>
+
+
+      <text
+        x="120"
+        y="146"
+        font-family="monospace"
+        font-size="17"
+        fill="#292333">
+
+        "Full-Stack"
+
+      </text>
+
+
+      <!-- problems -->
+
+      <text
+        x="44"
+        y="180"
+        font-family="monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#6041A5">
+
+        problems:
+
+      </text>
+
+
+      <text
+        x="150"
+        y="180"
+        font-family="monospace"
+        font-size="17"
+        fill="#292333">
+
+        "90+"
+
+      </text>
+
+
+      <text
+        x="28"
+        y="218"
+        font-family="monospace"
+        font-size="18"
+        fill="#292333">
+
+        };
+
+      </text>
+
+    </g>
+
+
+    <!-- ================================================== -->
+    <!-- PARTICLES -->
+    <!-- ================================================== -->
+
+    <circle
+      cx="760"
+      cy="90"
+      r="2.5"
+      fill="#7B3FE4"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.15;1;0.15"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="1180"
+      cy="420"
+      r="2.5"
+      fill="#C218A8"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.1;1;0.1"
+        dur="1.7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle
+      cx="690"
+      cy="430"
+      r="2.5"
+      fill="#007C91"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="opacity"
+        values="0.1;1;0.1"
+        dur="2.4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ================================================== -->
+    <!-- SUBTLE PINK SCANNING EFFECT -->
+    <!-- ================================================== -->
+
+    <rect
+      x="-100"
+      y="90"
+      width="1480"
+      height="3"
+      rx="2"
+      fill="#EC3FC2"
+      opacity="0.20"
+      filter="url(#glow)">
+
+      <animate
+        attributeName="y"
+        values="80;500;80"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <!-- ================================================== -->
+    <!-- BOTTOM DIVIDER -->
+    <!-- ================================================== -->
+
+    <rect
+      x="70"
+      y="410"
+      width="1080"
+      height="1"
+      fill="#51495E"
+      opacity="0.18"/>
+
+
+    <!-- ================================================== -->
+    <!-- FOOTER -->
+    <!-- ================================================== -->
+
+    <text
+      x="70"
+      y="455"
+      font-family="monospace"
+      font-size="18"
+      fill="#51495E">
+
+      Artificial Intelligence • Full-Stack Development • Problem Solving
+
+    </text>
+
+
+    <text
+      x="70"
+      y="495"
+      font-family="monospace"
+      font-size="16"
+      fill="#71697C">
+
+      github.com/rakshanafathima02
+
+    </text>
+
+
+    <!-- Animated cursor -->
+
+    <rect
+      x="410"
+      y="481"
+      width="9"
+      height="18"
+      fill="#C218A8">
+
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
   </g>
 
-  <text x="70" y="175" font-family="Arial, sans-serif" font-size="76" font-weight="800" fill="url(#neon)" filter="url(#glow)">
-    Rakshana Fathima
-    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
-  </text>
-
-  <text x="74" y="225" font-family="monospace" font-size="30" fill="#292333">
-    AI &amp; Full-Stack Developer
-  </text>
-
-  <text x="74" y="272" font-family="monospace" font-size="21" fill="#5b5368">
-    Building AI-powered solutions and exploring emerging technologies.
-  </text>
-
-  <g font-family="monospace" font-size="18">
-    <rect x="74" y="315" width="112" height="42" rx="21" fill="#ffffff10" stroke="#ff4fd8"/>
-    <text x="98" y="342" fill="#ffd7f6">Python</text>
-    <rect x="198" y="315" width="142" height="42" rx="21" fill="#ffffff10" stroke="#9b5cff"/>
-    <text x="224" y="342" fill="#e4d5ff">JavaScript</text>
-    <rect x="352" y="315" width="95" height="42" rx="21" fill="#ffffff10" stroke="#4dd8ff"/>
-    <text x="380" y="342" fill="#c9f7ff">SQL</text>
-    <rect x="459" y="315" width="120" height="42" rx="21" fill="#ffffff10" stroke="#ff4fd8"/>
-    <text x="481" y="342" fill="#ffd7f6">Generative AI</text>
-  </g>
-
-  <g transform="translate(850 135)">
-    <rect x="0" y="0" width="300" height="250" rx="24" fill="#ffffff" stroke="#ffffff20"/>
-    <text x="28" y="38" fill="#ff79df" font-family="monospace" font-size="18">profile.js</text>
-    <text x="28" y="78" fill="#7ee7ff" font-family="monospace" font-size="18">const</text>
-    <text x="92" y="78" fill="#fff" font-family="monospace" font-size="18">developer = &#123;</text>
-    <text x="44" y="112" fill="#bfa9ff" font-family="monospace" font-size="17">focus:</text>
-    <text x="120" y="112" fill="#fff" font-family="monospace" font-size="17">"AI"</text>
-    <text x="44" y="146" fill="#bfa9ff" font-family="monospace" font-size="17">stack:</text>
-    <text x="120" y="146" fill="#fff" font-family="monospace" font-size="17">"Full-Stack"</text>
-    <text x="44" y="180" fill="#bfa9ff" font-family="monospace" font-size="17">problems:</text>
-    <text x="150" y="180" fill="#fff" font-family="monospace" font-size="17">"90+"</text>
-    <text x="28" y="218" fill="#fff" font-family="monospace" font-size="18">&#125;;</text>
-  </g>
-
-  <rect x="-100" y="505" width="1480" height="3" fill="#ff4fd8" opacity=".75" filter="url(#glow)">
-    <animate attributeName="y" values="80;505;80" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g fill="#fff">
-    <circle cx="760" cy="90" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="1180" cy="420" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="1.7s" repeatCount="indefinite"/></circle>
-    <circle cx="690" cy="430" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2.4s" repeatCount="indefinite"/></circle>
-  </g>
-</g>
 </svg>
